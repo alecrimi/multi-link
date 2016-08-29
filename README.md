@@ -1,6 +1,3 @@
-# multi-link
-Multi-Link Analysis:Case-Control Brain Network Comparison via Sparse Connectivity Analysis
-
 Imaging neuroscience is currently pushing towards the analysis of the brain from a connectivity perspective, which is unveiling many insights into brain structure and functionality. Neuroscientists are often required to evaluate experimental effects in case-control on specimens with thousands connections. This software is based on an unsupervised machine-learning algorithm, which can capture the multivariate relationships that characterize two distinct groups of connectomes, thus allowing neuroscientists to immediately visualize only the sub-networks that contain information about differences between case and control group. The method exploits recent machine learning techniques which employ sparsity in order to deal with weighted network composed of hundreds of thousands of connections.
 
 Thi code performs the multi-link analysis for case-control comparison. In the example run_examples_MA.m structural connectivity data obtained by the atlasless connectivity tool. This tool can detect the discriminat features (trainTestSLDA function), amd can save the results in trackvis files (writeTracksSel).
@@ -28,3 +25,5 @@ Output:
      - sldaWeightStd: standard deviation for the selected features.
 
 The script also plot an occurence histogram for the relevant fatures
+To save the features as Trackvis files, I added the scripts from John Colby (johncolby@ucla.edu) trk_write_new.m
+and other external files are in the folder lib
