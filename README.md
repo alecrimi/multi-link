@@ -33,4 +33,5 @@ and other external files are in the folder lib
 
 The atlasless script to generate connectivity maps from a fixed grid is in the folder atlasless_connectivity
 
-The unprocessd DTI mice data are in the folder atlasless_connectivity/dti_res_orig
+The Trackvis  mice data are in the folder atlasless_connectivity/dti_res_orig
+The unprocessed DTI mice data are on Neurovalt
