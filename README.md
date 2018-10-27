@@ -5,10 +5,10 @@ All source code unless otherwise specified in the source code are copyrighted to
 
 Remember to cite our paper:
 
-@article{Crimi2016multi,
+@article{Crimi2018multi,
 author = {Alessandro Crimi, Luca Giancardo, Fabio Sanbataro, Alessandro Gozzi, Vittorio Murino, Diego Sona},
 title = {Multi-Link Analysis:Case-Control Brain Network Comparison via Sparse Connectivity Analysis},
-booktitle = { },
+booktitle = { Nature Scientific Reports },
 year = { },
 month = { }
 }
@@ -27,3 +27,7 @@ Output:
 The script also plot an occurence histogram for the relevant fatures
 To save the features as Trackvis files, I added the scripts from John Colby (johncolby@ucla.edu) trk_write_new.m
 and other external files are in the folder lib
+
+The atlasless script to generate connectivity maps from a fixed grid is in the folder atlasless_connectivity
+
+The unprocessd DTI mice data are in the folder atlasless_connectivity/dti_res_orig
