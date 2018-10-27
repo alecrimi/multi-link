@@ -14,7 +14,7 @@ year = { },
 month = { }
 }
 
-![alt text](https://raw.githubusercontent.com/alecrimi/multi-link/Fig2.jpg)
+![Mice Differences](https://raw.githubusercontent.com/alecrimi/multi-link/master/Fig2.jpg)
 
 The trainTestSLDA.m scripts has these minimum input and output parameters:
 [sldaFeat, sldaWeight, sldaWeightStd] = trainTestSLDA( featMat, classVec );
