@@ -54,9 +54,9 @@ function [featSelOut, weightFeatSelOutAvg, weightFeatSelOutStd] = trainTestSLDA(
     
     classIdxPos = find(classVec==0);
     classIdxNeg = find(classVec==1);
-    if( length(classIdxPos)~=length(classIdxNeg))
-        error('num of classes not even');
-    end
+    %if( length(classIdxPos)~=length(classIdxNeg))
+    %    error('num of classes not even');
+    %end
     for i=1:length(classIdxPos)
         % convert class ids to cells
         classIdxPosCell = mat2cell( classIdxPos, 1,ones(1,length(classIdxPos)) );
