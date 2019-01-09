@@ -10,9 +10,10 @@ Remember to cite our paper:
 author = {Alessandro Crimi, Luca Giancardo, Fabio Sanbataro, Alessandro Gozzi, Vittorio Murino, Diego Sona},
 title = {Multi-Link Analysis:Case-Control Brain Network Comparison via Sparse Connectivity Analysis},
 booktitle = { Nature Scientific Reports },
-year = { },
-month = { }
+year = {2019 },
+month = {January }
 }
+https://doi.org/10.1038/s41598-018-37300-4
 
 ![Mice Differences](https://raw.githubusercontent.com/alecrimi/multi-link/master/Fig2.jpg)
 
